@@ -1,3 +1,36 @@
 .responsive-grid {
   grid-template-columns: repeat(auto-fill, minmax(70px,1fr));
 }
+
+
+/* app container template */
+.app-container {
+  grid-template-rows: 1fr auto;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 1024px) {
+  .app-container {
+    grid-template-rows: 1fr;
+    grid-template-columns: auto 1fr;
+  }
+}
+
+
+/* customize tailwind container */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
+}
