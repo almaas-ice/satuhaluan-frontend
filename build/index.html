@@ -11,11 +11,13 @@
 </head>
 <body>
 
-	<div class="w-full h-screen grid app-container text-gray-800">
+	<div class="w-full h-screen lg:grid app-container text-gray-800">
 		<!-- ===================
 		/*  main content
 		==================== -->
 		<div class="order-2 overflow-y-auto">
+			<!-- illustration -->
+
       <div class="container mx-auto pt-8 pb-24 lg:pb-16">
 				<div class="px-5 grid gap-x-3   grid-cols-4 md:grid-cols-8 xl:grid-cols-12">
 
@@ -45,12 +47,12 @@
 							</div>
 				
 							<!--hapus class "hidden" buat nampilin option -->
-							<div class="origin-top-left sm:origin-top-right absolute left-0 sm:left-auto sm:right-0 mt-2 w-32 shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+							<div class="hidden origin-top-left sm:origin-top-right absolute left-0 sm:left-auto sm:right-0 mt-2 w-32 shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
 							<div class="py-1" role="none">
 							<!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" -->
-								<a href="#" class="text-gray-700 block px-4 py-2 text-sm lg:hover:bg-black lg:hover:text-white" role="menuitem" tabindex="-1" id="menu-item-0">Kelas</a>
-								<a href="#" class="text-gray-700 block px-4 py-2 text-sm lg:hover:bg-black lg:hover:text-white" role="menuitem" tabindex="-1" id="menu-item-1">Kelas</a>
-								<a href="#" class="text-gray-700 block px-4 py-2 text-sm lg:hover:bg-black lg:hover:text-white" role="menuitem" tabindex="-1" id="menu-item-2">Kelas</a>
+								<a href="#" class="text-gray-700 block px-4 py-2 text-sm lg:hover:bg-black lg:hover:text-white focus:bg-black focus:text-white" role="menuitem" tabindex="-1" id="menu-item-0">Kelas</a>
+								<a href="#" class="text-gray-700 block px-4 py-2 text-sm lg:hover:bg-black lg:hover:text-white focus:bg-black focus:text-white" role="menuitem" tabindex="-1" id="menu-item-1">Kelas</a>
+								<a href="#" class="text-gray-700 block px-4 py-2 text-sm lg:hover:bg-black lg:hover:text-white focus:bg-black focus:text-white" role="menuitem" tabindex="-1" id="menu-item-2">Kelas</a>
 								</div>
 							</div>
 						</div>
@@ -58,67 +60,67 @@
 
 					<!-- mapel-mapel -->
 					<section class="mt-4 lg:mt-10  grid gap-1   grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-10 2xl:grid-cols-12   col-span-4 md:col-span-6 lg:col-span-8 md:col-start-2 xl:col-span-12">
-						<a href="" class="flex px-2 py-3 flex-col lg:hover:bg-blue-600 lg:hover:text-white focus:bg-blue-600 focus:text-white">
+						<a href="" class="flex px-2 py-3 flex-col hover:bg-gray-100 lg:hover:bg-blue-600 lg:hover:text-white focus:bg-blue-600 focus:text-white">
 							<svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 my-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
 							</svg>
 							<p  class="leading-5 text-base break-words" >Bahasa Indonesia</p>
 						</a>
-						<a href="" class="flex px-2 py-3 flex-col lg:hover:bg-blue-600 lg:hover:text-white focus:bg-blue-600 focus:text-white">
+						<a href="" class="flex px-2 py-3 flex-col hover:bg-gray-100 lg:hover:bg-blue-600 lg:hover:text-white focus:bg-blue-600 focus:text-white">
 							<svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 my-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4.871 4A17.926 17.926 0 003 12c0 2.874.673 5.59 1.871 8m14.13 0a17.926 17.926 0 001.87-8c0-2.874-.673-5.59-1.87-8M9 9h1.246a1 1 0 01.961.725l1.586 5.55a1 1 0 00.961.725H15m1-7h-.08a2 2 0 00-1.519.698L9.6 15.302A2 2 0 018.08 16H8" />
 							</svg>
 							<p  class="leading-5 text-base break-words" >Matematika</p>
 						</a>
-						<a href="" class="flex px-2 py-3 flex-col lg:hover:bg-blue-600 lg:hover:text-white focus:bg-blue-600 focus:text-white">
+						<a href="" class="flex px-2 py-3 flex-col hover:bg-gray-100 lg:hover:bg-blue-600 lg:hover:text-white focus:bg-blue-600 focus:text-white">
 							<svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mb-2 mt-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
 							</svg>
 							<p  class="leading-5 text-base break-words" >Bahasa Indonesia</p>
 						</a>
-						<a href="" class="flex px-2 py-3 flex-col lg:hover:bg-blue-600 lg:hover:text-white focus:bg-blue-600 focus:text-white">
+						<a href="" class="flex px-2 py-3 flex-col hover:bg-gray-100 lg:hover:bg-blue-600 lg:hover:text-white focus:bg-blue-600 focus:text-white">
 							<svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mb-2 mt-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
 							</svg>
 							<p  class="leading-5 text-base break-words" >Bahasa Indonesia</p>
 						</a>
-						<a href="" class="flex px-2 py-3 flex-col lg:hover:bg-blue-600 lg:hover:text-white focus:bg-blue-600 focus:text-white">
+						<a href="" class="flex px-2 py-3 flex-col hover:bg-gray-100 lg:hover:bg-blue-600 lg:hover:text-white focus:bg-blue-600 focus:text-white">
 							<svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mb-2 mt-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
 							</svg>
 							<p  class="leading-5 text-base break-words" >Bahasa Indonesia</p>
 						</a>
-						<a href="" class="flex px-2 py-3 flex-col lg:hover:bg-blue-600 lg:hover:text-white focus:bg-blue-600 focus:text-white">
+						<a href="" class="flex px-2 py-3 flex-col hover:bg-gray-100 lg:hover:bg-blue-600 lg:hover:text-white focus:bg-blue-600 focus:text-white">
 							<svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mb-2 mt-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
 							</svg>
 							<p  class="leading-5 text-base break-words" >Bahasa Indonesia</p>
 						</a>
-						<a href="" class="flex px-2 py-3 flex-col lg:hover:bg-blue-600 lg:hover:text-white focus:bg-blue-600 focus:text-white">
+						<a href="" class="flex px-2 py-3 flex-col hover:bg-gray-100 lg:hover:bg-blue-600 lg:hover:text-white focus:bg-blue-600 focus:text-white">
 							<svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mb-2 mt-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
 							</svg>
 							<p  class="leading-5 text-base break-words" >Bahasa Indonesia</p>
 						</a>
-						<a href="" class="flex px-2 py-3 flex-col lg:hover:bg-blue-600 lg:hover:text-white focus:bg-blue-600 focus:text-white">
+						<a href="" class="flex px-2 py-3 flex-col hover:bg-gray-100 lg:hover:bg-blue-600 lg:hover:text-white focus:bg-blue-600 focus:text-white">
 							<svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mb-2 mt-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
 							</svg>
 							<p  class="leading-5 text-base break-words" >Bahasa Indonesia</p>
 						</a>
-						<a href="" class="flex px-2 py-3 flex-col lg:hover:bg-blue-600 lg:hover:text-white focus:bg-blue-600 focus:text-white">
+						<a href="" class="flex px-2 py-3 flex-col hover:bg-gray-100 lg:hover:bg-blue-600 lg:hover:text-white focus:bg-blue-600 focus:text-white">
 							<svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mb-2 mt-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
 							</svg>
 							<p  class="leading-5 text-base break-words" >Bahasa Indonesia</p>
 						</a>
-						<a href="" class="flex px-2 py-3 flex-col lg:hover:bg-blue-600 lg:hover:text-white focus:bg-blue-600 focus:text-white">
+						<a href="" class="flex px-2 py-3 flex-col hover:bg-gray-100 lg:hover:bg-blue-600 lg:hover:text-white focus:bg-blue-600 focus:text-white">
 							<svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mb-2 mt-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
 							</svg>
 							<p  class="leading-5 text-base break-words" >Bahasa Indonesia</p>
 						</a>
-						<a href="" class="flex px-2 py-3 flex-col lg:hover:bg-blue-600 lg:hover:text-white focus:bg-blue-600 focus:text-white">
+						<a href="" class="flex px-2 py-3 flex-col hover:bg-gray-100 lg:hover:bg-blue-600 lg:hover:text-white focus:bg-blue-600 focus:text-white">
 							<svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 mb-2 mt-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
 							</svg>
@@ -142,7 +144,7 @@
 		<!-- ===================
 		/*  navigation menu
 		==================== -->
-		<nav class="fixed lg:relative flex justify-evenly w-full h-14 bottom-0 bg-white shadow lg:left-0 lg:w-40 lg:h-full lg:flex-col lg:justify-center lg:items-start">
+		<nav class="fixed lg:relative flex justify-evenly w-full h-14 bottom-0 bg-white lg:bg-gray-100 shadow lg:shadow-none lg:left-0 lg:w-40 lg:h-full lg:flex-col lg:justify-center lg:items-start">
 			
 			<a href="" class="block p-4 lg:px-7 lg:flex lg:w-full lg:py-3 lg:hover:bg-blue-600 text-blue-600 lg:hover:text-white">
 				<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 lg:h-5 lg:w-5 lg:my-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
