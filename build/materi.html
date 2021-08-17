@@ -19,21 +19,20 @@
       <div class="container mx-auto pt-8 pb-24 lg:pb-16">
 				<div class="px-5 grid gap-x-3   grid-cols-4 md:grid-cols-8 xl:grid-cols-12">
 
+          <!-- back button -->
+          <section class="col-span-4 md:col-span-6 md:col-start-2 lg:col-span-1 xl:col-span-2">
+            <a href="#" class="flex h-7 w-max p-0.5 text-blue-600 lg:hover:bg-blue-600 lg:hover:text-white focus:bg-blue-600 focus:text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+              </svg>
+              <span class="text-base pl-2 pr-1">Back</span>
+            </a>
+          </section>
+
           <section class="col-span-4 md:col-start-2 xl:col-start-3 md:col-span-6 lg:col-span-8">
-
-            <!-- back button -->
-            <nav class="col-span-1">
-              <a href="#" class="block h-7 w-7 p-0.5 lg:hover:bg-blue-600 lg:hover:text-white focus:bg-blue-600 focus:text-white">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-                </svg>
-              </a>
-            </nav>
-
-            <!-- content materi -->
-            <div class="w-full my-4">
-
-              <span class="text-sm text-gray-400 uppercase">Matematika</span>
+            <!-- konten materi -->
+            <div class="w-full my-4 xl:mt-1">
+              <span class="text-xs leading-7 text-gray-400 uppercase">Matematika</span>
 
               <h2 class="text-2xl leading-7 text-gray-800 sm:text-3xl">
                 Judul Materi Lorem Ipsum Dolor Sit Amet Consectetur Adipiscing Elit
@@ -57,29 +56,31 @@
                 هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد م
               </p><br>
 
-              <div class="overflow-x-auto p-4 bg-gray-50">
-                <code class="text-gray-500 text-sm bg-gray-50">
-                  renderMapel(count,element) <br>
-  
-                  function renderMapel(count,element) {
-                    let elements = ''
-                    for (let index = 0; index < count; index++) {
-                      elements = elements + element; 
-                    }
-                    const section = document.querySelector('#mapel')
-                    section.innerHTML = elements
-                  }
+              <div class="p-4 bg-gray-50 overflow-y-auto">
+                <code class="text-gray-500 text-sm bg-gray-50 inline-block w-max">
+<!-- kode harus nempel pinggir, kalo nggk 'TAB'nya ngikut -->
+<pre>
+const longText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+renderMapel(count,element)
+
+function renderMapel(count,element) {
+  let elements = ''
+  for (let index = 0; index < count; index++) {
+    elements += element; 
+  }
+  const section = document.querySelector('#mapel')
+  section.innerHTML = elements
+}
+</pre>
                 </code>
               </div>
               <br>
 
               
               <p class="text-base">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                Duis aute irure dolor in <span class="leading-3 text-lg arabic"> حقيقة </span> reprehenderit in voluptate <code class="inline-block px-2 text-gray-500 text-sm bg-gray-100">Hello World</code> velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
               </p><br>
-              
             </div>
-
 
             
             <nav class="grid grid-cols-2 gap-x-3">
@@ -115,7 +116,7 @@
     <!-- ===================
 		/*  navigation menu
 		==================== -->
-		<nav class="fixed lg:relative flex justify-evenly w-full h-14 bottom-0 bg-white lg:bg-gray-50 shadow lg:shadow-none lg:left-0 lg:w-40 lg:h-full lg:flex-col lg:justify-center lg:items-start">
+		<nav class="fixed lg:relative flex justify-evenly w-full h-14 bottom-0 bg-white lg:bg-gray-100 lg:bg-opacity-70 shadow lg:shadow-none lg:left-0 lg:w-40 lg:h-full lg:flex-col lg:justify-center lg:items-start">
 			
 			<a href="" class="block p-4 lg:px-7 lg:flex lg:w-full lg:py-3 lg:hover:bg-blue-600 lg:hover:text-white text-blue-600 lg:border-l-4 border-blue-600 bg-white bg-opacity-60">
 				<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 lg:h-5 lg:w-5 lg:my-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
