@@ -64,7 +64,10 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 
 
-/* grid buat judul2 materi */
-.materi {
+/* grid layout icon di belakang */
+.icon-end {
   grid-template-columns: auto 24px;
+}
+.icon-start {
+  grid-template-columns: 32px auto;
 }
