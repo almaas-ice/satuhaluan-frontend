@@ -1,6 +1,6 @@
 # satuhaluan-frontend
 
-demo:
+preview:
 
 [https://hymos.github.io/satuhaluan-frontend/build](https://hymos.github.io/satuhaluan-frontend/build)
 
